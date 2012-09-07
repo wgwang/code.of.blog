@@ -42,7 +42,7 @@ class EpicycloidEvolute(object):
         pyplot.clf()
 
 
-for i in range(2, 16):
+for i in range(1, 16):
     a = float(i)
     x = EpicycloidEvolute(a, 1.0)
     x.draw('ee_%d.png' %(i), level=20)
